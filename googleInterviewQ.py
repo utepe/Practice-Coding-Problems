@@ -16,10 +16,8 @@ def findMatchingPair(list, sum):
 
 #Assumes list is not sorted
 def findMatchingPair2(list, sum):
-    values = set([])            #create a set
-    for i in list:
-        values.add(i)           #add list elements to set
-    
+    values = set(list)          #create a set with list elements
+
     for i in values:
         if((sum-i) in values):  #if the difference of sum-element is in set return True
             return True
