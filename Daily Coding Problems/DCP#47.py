@@ -1,9 +1,8 @@
-
 '''
-Uygur Tepe 105006877
-CS Games Team B Application
+Given a array of numbers representing the stock prices of a company in chronological order 
+Write a function that calculates the maximum profit you could have made from buying and selling that stock once. 
+You must buy before you can sell it.
 '''
-
 def solution(stocks):
     low = min(stocks)           #get lowest value
     dayLow = stocks.index(low)  #get index of lowest value
