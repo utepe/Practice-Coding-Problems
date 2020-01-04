@@ -1,4 +1,8 @@
-def maxProduct(list, n):
+'''
+Given a list of integers, return the largest product
+that can be made by multiplying any three integers
+'''
+def maxProduct(list, n):    #O(nlogn) - due to .sort()
     if len(list) < 3:
         return "Not enough values in list"
     elif len(list) == 3:
