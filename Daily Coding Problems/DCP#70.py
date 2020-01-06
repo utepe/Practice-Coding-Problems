@@ -3,6 +3,7 @@ A number is considered perfect if its digits sum up to exactly 10.
 Given a positive integer n, return the n-th perfect number.
 '''
 import math
+#using dictionary to assign the perfect n-th perfect number
 def findNth1(num):
     NthNum = {
         1 : 19,
