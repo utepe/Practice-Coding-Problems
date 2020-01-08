@@ -14,7 +14,7 @@ def possibleCompletions(s, strSet):
     return containsPrefix
 
 if __name__ == '__main__':
-    print(possibleCompletions('de', {"dog", "deer", "deal"}))
-    print(possibleCompletions('ca', {"cat", "car", "cer"}))
-    print(possibleCompletions("ae", {"cat", "car", "cer"}))
-    print(possibleCompletions("ae", {}))
+    print(possibleCompletions('de', {"dog", "deer", "deal"}))   #{'deal', 'deer'}
+    print(possibleCompletions('ca', {"cat", "car", "cer"}))     #{'car', 'cat'}
+    print(possibleCompletions("ae", {"cat", "car", "cer"}))     #set()
+    print(possibleCompletions("ae", {}))                        #set()
