@@ -1,2 +1,2 @@
 # Practice Coding Problems
-Place where I store the example coding problems I've done
+Place where I store the algoritm coding problems I've completed
